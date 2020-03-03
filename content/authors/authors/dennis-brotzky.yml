@@ -1,7 +1,8 @@
-name: Walter Mitty
+name: Dennis Brotzky
 bio: |
-  一个热爱前端的直男
-avatar: ./avatars/avatar.JPG
+  Written by You. This is where your author bio lives. Share your work, your
+  joys and of course, your Twitter handle.
+avatar: ./avatars/dennis-brotzky.jpg
 social:
   - url: https://unsplash.com
   - url: https://stackoverflow.com
