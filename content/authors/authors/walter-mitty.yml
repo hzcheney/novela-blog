@@ -1,7 +1,7 @@
 name: Walter Mitty
 bio: |
   一个热爱前端的直男
-avatar: ./avatars/avatar.JPG
+avatar: ./avatars/avatar.png
 social:
   - url: https://unsplash.com
   - url: https://stackoverflow.com

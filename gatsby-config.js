@@ -59,15 +59,7 @@ module.exports = {
     },
     {
       resolve: `gatsby-plugin-netlify-cms`,
-      options: {
-        modulePath: `path/to/custom/script.js`, // default: undefined
-        enableIdentityWidget: true,
-        publicPath: `admin`,
-        htmlTitle: `Content Manager`,
-        htmlFavicon: `path/to/favicon`,
-        includeRobots: false
-      }
-    },
-    ,
+      options: {}
+    }
   ]
 };
