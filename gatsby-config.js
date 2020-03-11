@@ -6,30 +6,30 @@ module.exports = {
     description: `This is my description that will be used in the meta tags and important for search results`,
     hero: {
       heading: `Welcome to Novela, the simplest way to start publishing with Gatsby.`,
-      maxWidth: 652,
+      maxWidth: 652
     },
     social: [
       {
         name: `twitter`,
-        url: `https://twitter.com/narative`,
+        url: `https://twitter.com/narative`
       },
       {
         name: `github`,
-        url: `https://github.com/narative`,
+        url: `https://github.com/narative`
       },
       {
         name: `instagram`,
-        url: `https://instagram.com/narative.co`,
+        url: `https://instagram.com/narative.co`
       },
       {
         name: `linkedin`,
-        url: `https://www.linkedin.com/company/narative/`,
+        url: `https://www.linkedin.com/company/narative/`
       },
       {
         name: `dribbble`,
-        url: `https://dribbble.com/narativestudio`,
-      },
-    ],
+        url: `https://dribbble.com/narativestudio`
+      }
+    ]
   },
   plugins: [
     {
@@ -40,10 +40,10 @@ module.exports = {
         basePath: "/",
         authorsPage: true,
         sources: {
-          local: true,
+          local: true
           // contentful: true,
-        },
-      },
+        }
+      }
     },
     {
       resolve: `gatsby-plugin-manifest`,
@@ -54,13 +54,20 @@ module.exports = {
         background_color: `#fff`,
         theme_color: `#fff`,
         display: `standalone`,
-        icon: `src/assets/favicon.png`,
-      },
+        icon: `src/assets/favicon.png`
+      }
     },
     {
       resolve: `gatsby-plugin-netlify-cms`,
       options: {
-      },
+        modulePath: `path/to/custom/script.js`, // default: undefined
+        enableIdentityWidget: true,
+        publicPath: `admin`,
+        htmlTitle: `Content Manager`,
+        htmlFavicon: `path/to/favicon`,
+        includeRobots: false
+      }
     },
-  ],
+    ,
+  ]
 };
