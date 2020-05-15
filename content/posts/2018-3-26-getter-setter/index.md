@@ -1,5 +1,5 @@
 ---
-title: [译]一文理解Javascript的Setter和Getter
+title: 一文理解Javascript的Setter和Getter[译]
 author: Walter Mitty
 date: 2018-03-26
 hero: ./images/hero.jpg
