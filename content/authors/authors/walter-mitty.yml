@@ -1,11 +1,9 @@
 name: Walter Mitty
 bio: |
-  一个热爱前端的直男
+  Stay hungry,stay foolish
 avatar: ./avatars/avatar.png
 social:
   - url: https://unsplash.com
   - url: https://stackoverflow.com
-  - url: https://github.com
-  - url: https://github.com
-  - url: https://github.com
+  - url: https://github.com/hzcheney
 featured: true

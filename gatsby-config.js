@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: `我的博客`,
-    name: `Narative`,
-    siteUrl: `https://novela.narative.co`,
-    description: `This is my description that will be used in the meta tags and important for search results`,
+    name: `Writing Coding Moving`,
+    siteUrl: `https://derive.ml`,
+    description: `前端 JavaScript 开发 js html css3 css `,
     hero: {
       heading: `欢迎来到巴克峰`,
       maxWidth: 652,
@@ -11,24 +11,24 @@ module.exports = {
     social: [
       {
         name: `twitter`,
-        url: `https://twitter.com/narative`,
+        url: `https://twitter.com/kNCn3lAG7gUGcLa`,
       },
       {
         name: `github`,
-        url: `https://github.com/narative`,
+        url: `https://github.com/hzcheney`,
       },
-      {
-        name: `instagram`,
-        url: `https://instagram.com/narative.co`,
-      },
-      {
-        name: `linkedin`,
-        url: `https://www.linkedin.com/company/narative/`,
-      },
-      {
-        name: `dribbble`,
-        url: `https://dribbble.com/narativestudio`,
-      },
+      // {
+      //   name: `instagram`,
+      //   url: `https://instagram.com/narative.co`,
+      // },
+      // {
+      //   name: `linkedin`,
+      //   url: `https://www.linkedin.com/company/narative/`,
+      // },
+      // {
+      //   name: `dribbble`,
+      //   url: `https://dribbble.com/narativestudio`,
+      // },
     ],
   },
   plugins: [
