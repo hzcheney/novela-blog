@@ -1,9 +1,9 @@
 name: Walter Mitty
 bio: |
   Stay hungry,stay foolish
+featured: false
 avatar: ./avatars/avatar.png
 social:
-  - url: https://unsplash.com
-  - url: https://stackoverflow.com
-  - url: https://github.com/hzcheney
-featured: true
+  - url: 'https://unsplash.com'
+  - url: 'https://stackoverflow.com'
+  - url: 'https://github.com/hzcheney'
